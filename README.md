@@ -1,7 +1,7 @@
-# *INSERIRE NOME*
+# INSERIRE NOME
 Manca il nome.
 
-##Idee
+## Idee
 
 - neatlab.it
 -
