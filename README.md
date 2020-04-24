@@ -7,3 +7,7 @@ Manca il nome.
 -
 -
 -
+
+## Risorse
+
+- Animazioni CSS:  [Animista](https://animista.net/)
