@@ -70,10 +70,13 @@ header ul li:hover {
 
 @keyframes example {
   0%   {background-color: #0b8cca;}
-  25%  {background-color: #ff6118;}
-  50% {background-color: #0b8cca;}
-  75% {background-color: #ff6118;}
-  100% {background-color: #0b8cca;}
+  15%  {background-color: #ffcf06; transform: rotate(10deg);}
+  30%  {background-color: #ff6118; transform: rotate(-10deg);}
+  45%  {background-color: #ffcf06; transform: rotate(10deg);}
+  60%  {background-color: #ff6118; transform: rotate(-10deg);}
+  75%  {background-color: #ffcf06; transform: rotate(10deg);}
+  90%  {background-color: #ff6118; transform: rotate(-10deg);}
+  100% {}
 }
 
 
