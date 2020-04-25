@@ -49,7 +49,7 @@ header button {
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #60a3bc;
+  background: #0b8cca;
   padding: 10px;
   border-radius: 50px;
   border: none;
@@ -63,14 +63,14 @@ header button {
 }
 
 header button:hover {
-  background: #60a3bcc2;
+  background: #ff6118;
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   margin-left: 10%;
 }
 /*# sourceMappingURL=home.css.map */
