@@ -3,7 +3,7 @@ html {
   height: 100%;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -26,7 +26,7 @@ header {
 }
 
 header ul {
-  top:0;
+  top: 0;
   height: 60px;
   margin-left: auto;
   margin-right: 4em;
@@ -49,61 +49,130 @@ header ul li a {
   color: black;
 }
 
+header ul li a:hover {
+  color: rgba(0, 0, 0, 0.788);
+}
+
 header ul li:hover {
+  -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   color: #0b8cca;
   border-radius: 10px;
-  box-shadow: 0px 2px 4px 0px rgba(186,186,186,1);
+  -webkit-box-shadow: 0px 2px 4px 0px #bababa;
+          box-shadow: 0px 2px 4px 0px #bababa;
 }
 
-#cont-btn{
+#cont-btn {
   margin-left: 3em;
   color: white;
   background-color: #0b8cca;
 }
 
-#cont-btn:hover{
-  animation-name: example;
-  animation-duration: 3s;
-  box-shadow: 0px 4px 7px 0px rgba(186,186,186,1);
+#cont-btn:hover {
+  -webkit-animation-name: btn-rot;
+          animation-name: btn-rot;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-box-shadow: 0px 4px 7px 0px #bababa;
+          box-shadow: 0px 4px 7px 0px #bababa;
 }
 
-@keyframes example {
-  0%   {background-color: #0b8cca;}
-  15%  {background-color: #ffcf06; transform: rotate(10deg);}
-  30%  {background-color: #ff6118; transform: rotate(-10deg);}
-  45%  {background-color: #ffcf06; transform: rotate(10deg);}
-  60%  {background-color: #ff6118; transform: rotate(-10deg);}
-  75%  {background-color: #ffcf06; transform: rotate(10deg);}
-  90%  {background-color: #ff6118; transform: rotate(-10deg);}
-  100% {}
+@-webkit-keyframes btn-rot {
+  0% {
+    background-color: #0b8cca;
+  }
+  15% {
+    background-color: #ffcf06;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  30% {
+    background-color: #ff6118;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  45% {
+    background-color: #ffcf06;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  60% {
+    background-color: #ff6118;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  75% {
+    background-color: #ffcf06;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  90% {
+    background-color: #ff6118;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  100% {
+  }
 }
 
-
-header button {
-  font-size: 14px;
-  color: #fff !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #0b8cca;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: none;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-  cursor: pointer;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  margin-right: 5%;
-  margin-bottom: 177px;
+@keyframes btn-rot {
+  0% {
+    background-color: #0b8cca;
+  }
+  15% {
+    background-color: #ffcf06;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  30% {
+    background-color: #ff6118;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  45% {
+    background-color: #ffcf06;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  60% {
+    background-color: #ff6118;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  75% {
+    background-color: #ffcf06;
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+  90% {
+    background-color: #ff6118;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  100% {
+  }
 }
 
-header button:hover {
-  background: #ff6118;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-}
-
+/*
+  button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-right: 12%;
+    margin-bottom: 14px;
+  }
+  button:hover {
+    background: #60a3bcc2;
+    transition: all 0.4s ease 0s;
+  }
+*/
 .logo {
   height: 250px;
   width: 250px;
