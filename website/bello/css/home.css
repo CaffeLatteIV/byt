@@ -67,12 +67,34 @@ header ul li a:hover {
 }
 
 header ul li:hover {
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
+  -webkit-animation: li-hov 0.4s;
+          animation: li-hov 0.4s;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
   color: #0b8cca;
   border-radius: 10px;
   -webkit-box-shadow: 0px 2px 4px 0px #bababa;
           box-shadow: 0px 2px 4px 0px #bababa;
+}
+
+@-webkit-keyframes li-hov {
+  0% {
+    color: white;
+    background-color: #04b7e8;
+  }
+  75% {
+    color: white;
+  }
+}
+
+@keyframes li-hov {
+  0% {
+    color: white;
+    background-color: #04b7e8;
+  }
+  75% {
+    color: white;
+  }
 }
 
 #cont-btn {
@@ -95,11 +117,27 @@ header ul li:hover {
 }
 
 .prodotti:hover .sub-prodotti {
+  -webkit-animation: sub-anim 0.5s;
+          animation: sub-anim 0.5s;
   display: -ms-inline-grid;
   display: inline-grid;
 }
 
+@-webkit-keyframes sub-anim {
+  0% {
+    top: 55px;
+  }
+}
+
+@keyframes sub-anim {
+  0% {
+    top: 55px;
+  }
+}
+
 .prodotti-title:hover {
+  -webkit-animation: none;
+          animation: none;
   -webkit-box-shadow: 0px 0px 0px 0px #bababa;
           box-shadow: 0px 0px 0px 0px #bababa;
   color: #ff6118;
@@ -223,26 +261,6 @@ header ul li:hover {
   }
 }
 
-/*
-  button {
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #60a3bc;
-    padding: 10px;
-    border-radius: 50px;
-    border: none;
-    transition: all 0.4s ease 0s;
-    cursor: pointer;
-    align-self: flex-end;
-    margin-right: 12%;
-    margin-bottom: 14px;
-  }
-  button:hover {
-    background: #60a3bcc2;
-    transition: all 0.4s ease 0s;
-  }
-*/
 .logo {
   height: 320px;
   width: 320px;
@@ -270,10 +288,6 @@ header ul li:hover {
     margin-top: 40vh;
     color: white;
     line-height: 100px;
-    letter-spacing: 5px;
-  }
-  25% {
-    color: #ff7231;
   }
 }
 
@@ -282,10 +296,6 @@ header ul li:hover {
     margin-top: 40vh;
     color: white;
     line-height: 100px;
-    letter-spacing: 5px;
-  }
-  25% {
-    color: #ff7231;
   }
 }
 /*# sourceMappingURL=home.css.map */
