@@ -27,7 +27,6 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  /*background-image: url("../img/header.png");*/
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -264,8 +263,6 @@ header ul li:active {
   color: #0b8cca;
   line-height: 60px;
   font-weight: bold;
-  -webkit-animation: motto-anim 2s;
-          animation: motto-anim 2s;
 }
 
 @-webkit-keyframes motto-anim {

@@ -29,9 +29,9 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  /*background-image: url("../img/header.png");*/
   background-size: 100%;
   background-repeat: no-repeat;
+  
 }
 
 
@@ -169,7 +169,7 @@ header {
   z-index: -1;
 }
 
-.motto-div{
+.motto-div {
   z-index: 10000;
   margin-top: 15vh;
   margin-left: 3%;
@@ -177,10 +177,9 @@ header {
   padding: 10px 10px;
   text-align: center;
   font-size: 65px;
-  color:#0b8cca;
+  color: #0b8cca;
   line-height: 60px;
   font-weight: bold;
-  animation: motto-anim 2s;
 }
 
 @keyframes motto-anim{
