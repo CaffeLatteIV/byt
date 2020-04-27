@@ -107,22 +107,28 @@ header {
      }
    
      @media (min-width:1500px){
-       ul {
-         margin-right: 4em;
-         li {
-           font-size: 18px;
-           padding: 10px 25px;
-         }
+       header{
+         ul {
+          margin-right: 4em;
+          li {
+            font-size: 18px;
+            padding: 10px 25px;
+          }
+        }
+
        }
+       
      }
    
      @media (min-width: 1025px) and (max-width: 1500px) { 
-       ul {
-         margin-right: 2em;
-         li {
-           padding: 10px 20px;
-         }
-       }
+      header{
+        ul {
+          margin-right: 2em;
+          li {
+            padding: 10px 20px;
+          }
+        }
+      }
      }
    
    .logo {

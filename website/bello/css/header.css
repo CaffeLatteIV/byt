@@ -194,20 +194,20 @@ header ul li:active {
 }
 
 @media (min-width: 1500px) {
-  ul {
+  header ul {
     margin-right: 4em;
   }
-  ul li {
+  header ul li {
     font-size: 18px;
     padding: 10px 25px;
   }
 }
 
 @media (min-width: 1025px) and (max-width: 1500px) {
-  ul {
+  header ul {
     margin-right: 2em;
   }
-  ul li {
+  header ul li {
     padding: 10px 20px;
   }
 }
