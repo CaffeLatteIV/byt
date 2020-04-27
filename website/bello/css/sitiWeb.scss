@@ -1,32 +1,60 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 .prezzi_container{
     display: flex;
     justify-content: center;
     width: 100%;
     
-    div{
+        .box{
         text-align: center;
-        margin: 2em;
-        border: 1px solid black;
-        border-radius: 25px;
+        margin: 0;
+        border: 1px solid #dee2eb;
+        padding:30px;
         font-size: 18px;
+        .categoria{
+            font-weight: 300;
+        }
+        .box-prezzi{
+            padding:10px;
+            h1{
+                margin-bottom: 50px;
 
-        ul{
-            padding: 0;
-            margin:0;
-            li{
-                padding: 2px 5px;
-                margin:0;
-                text-align: left;
-                list-style: none;
-                border-bottom: 2px solid grey;
-                color: grey;
-                
             }
-            .disponibile{
-                color: black;
+            a{
+                border-radius: 50px !important;
+                border: 1px solid #ccc;
+                padding: 10px 45px 10px 45px !important;
+                font-weight: 600;
+            }
+
+        }
+       
+        .caratteristiche-prezzi{
+            font-size: 16px;
+            margin-top: 50px;
+            ul{
+                padding: 0;
+                margin:0;
+                li{
+                    padding: 2px 5px;
+                    margin:5px;
+                    text-align: left;
+                    list-style: none;
+                    //border-bottom: 2px solid #dee2eb;
+                    color: #dee2eb;
+                    i{
+                        margin-right: 10px;
+                        color: #2f7fef;
+                    }
+                }
+                .disponibile{
+                    color: #18212d;
+                }     
             }
             
+
         }
-        
+
     }
 }

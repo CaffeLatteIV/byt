@@ -1,3 +1,8 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .prezzi_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,29 +13,57 @@
   width: 100%;
 }
 
-.prezzi_container div {
+.prezzi_container .box {
   text-align: center;
-  margin: 2em;
-  border: 1px solid black;
-  border-radius: 25px;
+  margin: 0;
+  border: 1px solid #dee2eb;
+  padding: 30px;
   font-size: 18px;
 }
 
-.prezzi_container div ul {
+.prezzi_container .box .categoria {
+  font-weight: 300;
+}
+
+.prezzi_container .box .box-prezzi {
+  padding: 10px;
+}
+
+.prezzi_container .box .box-prezzi h1 {
+  margin-bottom: 50px;
+}
+
+.prezzi_container .box .box-prezzi a {
+  border-radius: 50px !important;
+  border: 1px solid #ccc;
+  padding: 10px 45px 10px 45px !important;
+  font-weight: 600;
+}
+
+.prezzi_container .box .caratteristiche-prezzi {
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.prezzi_container .box .caratteristiche-prezzi ul {
   padding: 0;
   margin: 0;
 }
 
-.prezzi_container div ul li {
+.prezzi_container .box .caratteristiche-prezzi ul li {
   padding: 2px 5px;
-  margin: 0;
+  margin: 5px;
   text-align: left;
   list-style: none;
-  border-bottom: 2px solid grey;
-  color: grey;
+  color: #dee2eb;
 }
 
-.prezzi_container div ul .disponibile {
-  color: black;
+.prezzi_container .box .caratteristiche-prezzi ul li i {
+  margin-right: 10px;
+  color: #2f7fef;
+}
+
+.prezzi_container .box .caratteristiche-prezzi ul .disponibile {
+  color: #18212d;
 }
 /*# sourceMappingURL=sitiWeb.css.map */
