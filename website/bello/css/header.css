@@ -218,4 +218,54 @@ header ul li:active {
   margin-left: 6%;
   z-index: -1;
 }
+
+.motto-div {
+  z-index: 10000;
+  margin-top: 17vh;
+  margin-left: 5%;
+  width: 40%;
+  text-align: center;
+  font-size: 70px;
+  color: #0b8cca;
+  line-height: 65px;
+  font-weight: bold;
+}
+
+.motto-div .tit {
+  font-size: 80px;
+  line-height: 45px;
+  color: #0b6cca;
+}
+
+.ombra {
+  content: '';
+  margin-left: 15%;
+  width: 20%;
+  height: 20px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  z-index: -1;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.motto2-div {
+  z-index: 10000;
+  position: absolute;
+  top: 220px;
+  right: 2%;
+  width: 50%;
+  text-align: right;
+  font-size: 35px;
+  color: #ffb909;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.motto2-div .tit {
+  font-size: 50px;
+  line-height: 45px;
+  color: #ff9b0e;
+}
 /*# sourceMappingURL=header.css.map */
