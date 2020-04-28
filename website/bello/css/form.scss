@@ -27,3 +27,26 @@
     background-position: 0 50%;
 }
 }
+
+.btn-invia{
+    width: 150px;
+    background-color: #ffffff00;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -3px -3px 3px rgba(255,255,255,0.2), 
+                5px 5px 5px rgba(0,0,0,0.1),
+                inset -2px -2px 2px rgba(255,255,255,0.2), 
+                inset 2px 2px 2px rgba(0,0,0,0.1);
+
+}
+
+.btn-invia:hover{
+    cursor: pointer;
+}
+
+.btn-invia:active{
+    box-shadow: inset -2px -2px 2px rgba(255,255,255,0.2), inset 2px 2px 2px rgba(0,0,0,0.1);
+}
