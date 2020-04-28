@@ -72,6 +72,7 @@ header ul li:active {
           animation: sub-anim 0.5s;
   display: -ms-inline-grid;
   display: inline-grid;
+  background-color: white;
 }
 
 @-webkit-keyframes sub-anim {

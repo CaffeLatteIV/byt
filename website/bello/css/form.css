@@ -1,5 +1,7 @@
 .form-container {
-  background-color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#002d59), color-stop(50%, #2ba1da), to(#002d59));
+  background: linear-gradient(90deg, #002d59 0%, #2ba1da 50%, #002d59 100%);
+  background-size: 800% 100%;
   margin-left: 20%;
   width: 60%;
   height: 60vh;
@@ -7,5 +9,37 @@
           box-shadow: 0px 10px 18px 0px #bababa;
   border-radius: 10px;
   padding: 30px;
+  -webkit-animation: change-bg 15s ease-in infinite;
+          animation: change-bg 15s ease-in infinite;
+  text-align: center;
+  color: white;
+}
+
+.form-container h1 {
+  color: white;
+}
+
+@-webkit-keyframes change-bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes change-bg {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 /*# sourceMappingURL=form.css.map */
