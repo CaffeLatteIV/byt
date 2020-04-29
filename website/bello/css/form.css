@@ -1,14 +1,18 @@
 .form-container {
+  position: absolute;
   background: -webkit-gradient(linear, left top, right top, from(#002d59), color-stop(50%, #2ba1da), to(#002d59));
   background: linear-gradient(90deg, #002d59 0%, #2ba1da 50%, #002d59 100%);
   background-size: 800% 100%;
-  margin-left: 20%;
-  width: 60%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 600px;
   height: 60vh;
   -webkit-box-shadow: 0px 10px 18px 0px #bababa;
           box-shadow: 0px 10px 18px 0px #bababa;
   border-radius: 10px;
-  padding: 30px;
+  padding: 50px;
   -webkit-animation: change-bg 15s ease-in infinite;
           animation: change-bg 15s ease-in infinite;
   text-align: center;
@@ -44,11 +48,11 @@
 }
 
 .btn-invia {
-  width: 150px;
+  width: 100%;
   background-color: #ffffff00;
   color: white;
   font-size: 16px;
-  padding: 10px 30px;
+  padding: 10px 0;
   border-radius: 10px;
   border: none;
   -webkit-box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.2), 5px 5px 5px rgba(0, 0, 0, 0.1), inset -2px -2px 2px rgba(255, 255, 255, 0.2), inset 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -62,5 +66,38 @@
 .btn-invia:active {
   -webkit-box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.2), inset 2px 2px 2px rgba(0, 0, 0, 0.1);
           box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.2), inset 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-container .input-box {
+  position: relative;
+}
+
+.form-container .input-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid white;
+}
+
+.form-container .input-box label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  pointer-events: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.form-container .input-box input:focus ~ label {
+  top: -22px;
 }
 /*# sourceMappingURL=form.css.map */
