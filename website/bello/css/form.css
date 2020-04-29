@@ -70,16 +70,24 @@
           box-shadow: inset -2px -2px 2px rgba(255, 255, 255, 0.2), inset 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
+.name-sname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
 .form-container .input-box {
   position: relative;
+  width: inherit;
 }
 
 .form-container .input-box input {
   width: 100%;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   border: none;
   outline: none;
   background: transparent;
