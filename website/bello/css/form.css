@@ -114,4 +114,19 @@
   left: 0;
   font-size: 12px;
 }
+
+@media only screen and (max-width: 1025px) {
+  .form-container {
+    width: 100%;
+    height: 100vh;
+  }
+  .form-container .input-box {
+    width: 100%;
+  }
+  .form-container form {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20vh;
+  }
+}
 /*# sourceMappingURL=form.css.map */
